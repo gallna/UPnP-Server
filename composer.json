@@ -6,8 +6,7 @@
         "zendframework/zend-http": "2.4.*",
         "gallna/MediaLibrary": "*",
         "gallna/UPnP-Description": "*",
-        "gallna/UPnP-Eventing": "*",
-        "gallna/UPnP-Server": "*"
+        "gallna/UPnP-Eventing": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.5.*"
@@ -22,15 +21,11 @@
         "psr-4": {
             "Kemer\\UPnP\\Server\\": "src/Kemer/UPnP/Server"
         }
-    }
+    },
     "repositories": [
         {
             "type": "vcs",
             "url":  "git@github.com:gallna/MediaLibrary.git"
-        }
-        {
-            "type": "vcs",
-            "url":  "git@github.com:gallna/UPnP-Server.git"
         },
         {
             "type": "vcs",
